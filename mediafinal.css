@@ -1,0 +1,170 @@
+                                                                                                    @media all and (min-width: 300px) and (max-width: 700px) {
+                                                                                                    body {
+                                                                                                        margin: 0;
+                                                                                                        margin-left: -22px;
+                                                                                                        margin-top: -13px;
+                                                                                                    }
+                                                                                                    .logo {
+                                                                                                        width: 40px;
+                                                                                                        margin-top: -50px;
+                                                                                                    }
+                                                                                                    .mens,
+                                                                                                    .men {
+                                                                                                        text-decoration: none;
+                                                                                                        font-size: 0.8vh;
+                                                                                                        margin-right: 5px;
+                                                                                                        color: black;
+                                                                                                        font-weight: 700;
+                                                                                                    }
+                                                                                                    .search-btn {
+                                                                                                        height: 2px;
+                                                                                                        width: 40px;
+                                                                                                        border-radius: 3px;
+                                                                                                        margin-top: 7px;
+                                                                                                        margin-left: -14px;
+                                                                                                    }
+                                                                                                    .panier {
+                                                                                                        margin-top: 2px;
+                                                                                                    }
+                                                                                                    .search-btn::placeholder {
+                                                                                                        font-size: 2.5vh;
+                                                                                                        size: 3vh;
+                                                                                                        padding-left: -10px;
+                                                                                                    }
+                                                                                                    .connect-btn {
+                                                                                                        margin-top: 3px;
+                                                                                                        background-color: green;
+                                                                                                        border: none;
+                                                                                                        border-radius: 10px;
+                                                                                                        width: 10vh;
+                                                                                                        height: 2vh;
+                                                                                                        color: white;
+                                                                                                        font-size: 1vh;
+                                                                                                        font-weight: 700;
+                                                                                                        margin-right: 5px;
+                                                                                                    }
+                                                                                                    h1 {
+                                                                                                        font-size: 2.5vh;
+                                                                                                        font-family: 'Josefin Sans';
+                                                                                                        font-style: normal;
+                                                                                                        font-weight: 700;
+                                                                                                        line-height: 25px;
+                                                                                                    }
+                                                                                                    .plat_grand {
+                                                                                                        height: 130px;
+                                                                                                        padding-right: 20px;
+                                                                                                    }
+                                                                                                    .btn-nos-menu {
+                                                                                                        width: 10vh;
+                                                                                                        height: 3vh;
+                                                                                                        font-size: 1.5vh;
+                                                                                                        border-radius: 30px;
+                                                                                                        box-shadow: 0 2px 3px 2px #000;
+                                                                                                        margin-right: 30px;
+                                                                                                    }
+                                                                                                    .btn-reservation {
+                                                                                                        background-color: rgb(252, 252, 252);
+                                                                                                        color: black;
+                                                                                                        border: none;
+                                                                                                        width: 10vh;
+                                                                                                        height: 3vh;
+                                                                                                        font-size: 1.5vh;
+                                                                                                        border-radius: 30px;
+                                                                                                        box-shadow: 0 2px 3px 2px #000;
+                                                                                                    }
+                                                                                                    .mes-btn {
+                                                                                                        margin-left: 50px;
+                                                                                                        margin-top: -40px;
+                                                                                                    }
+                                                                                                    /* Ici débute la section 'NOS MENUS' */
+                                                                                                    h2 {
+                                                                                                        color: #E56E00;
+                                                                                                        font-size: 2vh;
+                                                                                                        margin-left: 45px;
+                                                                                                        font-family: Josefin Sans;
+                                                                                                        font-weight: 700;
+                                                                                                    }
+                                                                                                    .section-menu {
+                                                                                                        margin-top: 30px;
+                                                                                                    }
+                                                                                                    .slide {
+                                                                                                        display: flex;
+                                                                                                        margin-top: 10px;
+                                                                                                        margin-left: 15px;
+                                                                                                    }
+                                                                                                    .slideplat {
+                                                                                                        margin: 0 auto;
+                                                                                                        height: 12vh;
+                                                                                                        min-height: 5vh;
+                                                                                                        margin-left: -27px;
+                                                                                                    }
+                                                                                                    .mes-btn-slide {
+                                                                                                        height: 1.5vh;
+                                                                                                        padding-top: 65px;
+                                                                                                        margin-left: -53px;
+                                                                                                    }
+                                                                                                    .lienbtn {
+                                                                                                        margin-left: 100px;
+                                                                                                        margin-top: -0px;
+                                                                                                    }
+                                                                                                    .btn-plat-plus {
+                                                                                                        background-color: #E56E00;
+                                                                                                        color: white;
+                                                                                                        border: none;
+                                                                                                        border-radius: 5px;
+                                                                                                        height: 2vh;
+                                                                                                        width: 35vh;
+                                                                                                        font-family: Josefin Sans;
+                                                                                                        font-size: 1.5vh;
+                                                                                                        margin-top: 30px;
+                                                                                                    }
+                                                                                                    .lien-btn-plat-plus {
+                                                                                                        display: flex;
+                                                                                                        margin: 0 auto;
+                                                                                                        text-decoration: none;
+                                                                                                        /* padding-right: 50px; */
+                                                                                                    }
+                                                                                                    .img-livraison {
+                                                                                                        height: 6vh;
+                                                                                                        margin-left: -340px;
+                                                                                                    }
+                                                                                                    .section-livraison {
+                                                                                                        margin-left: 50vh;
+                                                                                                        min-width: 10vh;
+                                                                                                        font-family: Josefin Sans;
+                                                                                                        display: flex;
+                                                                                                        flex-wrap: wrap;
+                                                                                                    }
+                                                                                                    p,
+                                                                                                    .section-livraison {
+                                                                                                        font-size: 2vh;
+                                                                                                        margin-top: 15px;
+                                                                                                    }
+                                                                                                    /* Section des partenaires */
+                                                                                                    .section-partenaire {
+                                                                                                        background-color: rgb(255, 255, 255);
+                                                                                                        width: 100%;
+                                                                                                        height: 6vh;
+                                                                                                        margin-left: 0px;
+                                                                                                        margin-left: 10px;
+                                                                                                        /* display: flex; */
+                                                                                                    }
+                                                                                                    h3 {
+                                                                                                        margin-bottom: 10px;
+                                                                                                        padding-top: 1px;
+                                                                                                        font-size: 1vh;
+                                                                                                        font-family: Inter;
+                                                                                                        /* margin: 0vh 1vh 0 5vh; */
+                                                                                                    }
+                                                                                                    logo-partenaires {
+                                                                                                        margin-right: -vh;
+                                                                                                        display: flex;
+                                                                                                    }
+                                                                                                    .img-type1 {
+                                                                                                        height: 2vh;
+                                                                                                        margin-right: vh;
+                                                                                                    }
+                                                                                                    .img-type2 {
+                                                                                                        height: 1.8vh;
+                                                                                                        margin-right: 5vh;
+                                                                                                    }
