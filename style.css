@@ -37,12 +37,14 @@ nav {
     width: 30vh;
     border-radius: 8px;
     margin-top: -7px;
+    font-size: 3vh;
 }
 
 .search-btn::placeholder {
     font-size: 2.5vh;
+    text-align: left;
     size: 3vh;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .panier {
@@ -151,7 +153,7 @@ h1 {
 
 
 /* ICI DEBUTE LA DEUXIEME PAGE DE MON CODE 
-c'est ç dire la section menu*/
+c'est à dire la section menu*/
 
 h2 {
     color: #E56E00;
@@ -207,24 +209,24 @@ h2 {
 .section-livraison {
     display: flex;
     margin-top: 50px;
+    justify-content: center;
     animation-duration: 4s;
     animation-name: glissement;
     animation-iteration-count: infinite;
 }
 
-
-/* .section-livraison {
-    animation-direction: alternate;
+.section-livraison {
+    animation-direction: alternate-reverse;
 }
 
 @keyframes glissement {
     0% {
-        margin-right: 100%;
+        margin-right: 50%;
         width: 200%;
         opacity: 0;
     }
     50% {
-        margin-right: 0%;
+        margin-right: 100%;
         width: 100%;
         opacity: 1;
     }
@@ -233,9 +235,9 @@ h2 {
         width: 100%;
         opacity: 0;
     }
-} */
+}
 
-.section-livraison {
+*/ .section-livraison {
     margin-left: 50vh;
     min-width: 10vh;
     font-family: Josefin Sans;
@@ -253,12 +255,12 @@ p,
 /* Section des partenaires */
 
 .section-partenaire {
-    /* display: flex; */
     background-color: rgb(255, 255, 255);
     width: 200vh;
-    height: 20vh;
+    height: 23vh;
     margin-left: -70px;
     justify-content: center;
+    justify-items: center;
 }
 
 h3 {
@@ -269,37 +271,20 @@ h3 {
     font-family: 'Inter', sans-serif;
     margin: 0vh 50vh 0 50vh;
     text-align: center;
-    /* font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 5px; */
 }
 
-logo-partenaires {
-    justify-content: space-between;
-    /* margin: 80px; */
-    margin-right: -70;
-    display: flex;
-    padding-left: 70px;
-    padding-top: 90px;
-    padding-right: 20px;
+.logo-partenaires {
+    margin-left: 20vh;
+    margin-top: 1vh;
 }
-
-
-/* .img-typediff1 {
-    height: 10vh;
-    /* margin-left: 10vh;
-    margin-right: 10vh; */
 
 .img-type1 {
-    height: 10vh;
+    height: 8vh;
     margin-right: 10vh;
 }
 
 .img-type2 {
-    height: 9vh;
+    height: 7vh;
     margin-right: 10vh;
 }
 
@@ -328,15 +313,7 @@ form {
     font-size: 3vh;
 }
 
-.contenu-form {
-    /* display: flex; */
-    /* height: 100vh; */
-    /* justify-content: center;
-    align-items: center; */
-}
-
 .input-box {
-    /* display: flex; */
     margin: 10px;
 }
 
@@ -366,6 +343,11 @@ form {
     border: none;
     font-size: 2.5vh;
     font-family: Josefin Sans;
+}
+
+form ::placeholder {
+    text-align: left;
+    font-size: 2vh;
 }
 
 .input-box3 {
@@ -399,12 +381,27 @@ SECTION LOCALISATION */
     color: #000;
     margin-left: 40vh;
     margin-top: 15vh;
+    justify-content: center;
+}
+
+.localisation {
+    /* margin: 20vh auto; */
+    justify-content: center;
+    align-content: center;
+}
+
+.frame {
+    /* justify-content: center;
+    justify-items: center;
+    margin: auto; */
+    margin-left: 20%;
 }
 
 .localisation iframe {
     justify-content: center;
+    align-items: center;
     margin: 10vh auto;
-    padding-left: 40vh;
+    border: none;
 }
 
 
@@ -430,18 +427,9 @@ SECTION LOCALISATION */
 
 .section-avis h2 {
     color: white;
-    /* margin-left: 40vh;*/
     margin-left: 37vh;
     font-size: 4vh;
 }
-
-
-/* .img-crayon {
-    height: 3vh;
-    position: relative;
-    padding-left: 10px;
-    display: flex;
-} */
 
 .section-avis nav textarea {
     height: 4vh;
@@ -510,8 +498,6 @@ section .avis-backgrounds p {
     height: 8vh;
 }
 
-.icones-reseaux-sociaux {}
-
 .icon-réseaux-sociaux_fcbook {
     height: 6vh;
     margin-bottom: 0.5vh;
@@ -534,22 +520,34 @@ section .avis-backgrounds p {
 
 footer {
     display: flex;
+    margin-top: 0vh;
+    margin-top: -4vh;
 }
 
 footer h6 {
-    font-size: 3vh;
+    font-size: 2.8vh;
     font-family: josefin sans;
-    margin-left: 15vh;
+    margin-left: 17vh;
 }
 
 footer img {
-    height: 30vh;
+    height: 25vh;
     margin-left: 10vh;
-    margin-top: -10vh;
+    margin-top: -8vh;
 }
 
 .abonnement {
-    /* display: flex; */
+    margin-top: 13vh;
+    position: ;
+    font-family: inter;
+    font-weight: 700;
+    font-size: 2vh;
+    margin-left: 10vh;
+}
+
+footer .input ::placeholder {
+    text-align: left;
+    font-size: 1vh;
 }
 
 .elements-bas {
@@ -557,13 +555,42 @@ footer img {
 }
 
 .besoin-aide {
-    font-size: 2vh;
+    font-size: 1.8vh;
     font-weight: 700;
     font-family: inter;
+    margin-top: 13vh;
+    margin-left: -25vh;
 }
 
 .coordonées {
     font-family: inter;
     font-weight: 400;
+    font-size: 2vh;
+    margin-top: 2vh;
+    margin-left: -25vh;
+}
+
+h4 {
+    margin-top: 13vh;
+    font-family: inter;
+    display: flex;
+    margin-left: 5vh;
+}
+
+.abonnement h4 {
+    font-family: inter;
+    margin-left: 0vh;
+    margin-top: 0vh;
+    font-size: 2.1vh;
+}
+
+.abonnement button {
+    background-color: black;
+    color: white;
+    margin-top: 1vh;
+}
+
+footer ::placeholder {
+    text-align: left;
     font-size: 2vh;
 }
