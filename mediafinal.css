@@ -141,7 +141,7 @@
     /* Section des partenaires */
     .section-partenaire {
         background-color: rgb(255, 255, 255);
-        width: 66vh;
+        width: 57.8vh;
         height: 12vh;
     }
     h3 {
@@ -364,12 +364,16 @@ SECTION LOCALISATION */
         position: ;
         font-family: inter;
         font-weight: 700;
-        font-size: 2vh;
-        margin-left: 10vh;
+        font-size: 1vh;
+        margin-left: 1vh;
     }
     footer .input ::placeholder {
         text-align: left;
-        font-size: 1vh;
+        font-size: 0.2vh;
+    }
+    footer input {
+        width: 7vh;
+        height: 1.5vh;
     }
     .elements-bas {
         display: flex;
@@ -393,20 +397,24 @@ SECTION LOCALISATION */
         font-family: inter;
         display: flex;
         margin-left: 5vh;
+        font-size: 1vh;
     }
     .abonnement h4 {
         font-family: inter;
         margin-left: 0vh;
         margin-top: 0vh;
-        font-size: 2.1vh;
+        font-size: 1vh;
     }
     .abonnement button {
         background-color: black;
         color: white;
         margin-top: 1vh;
+        height: 2vh;
+        width: 7vh;
+        font-size: 1vh;
     }
     footer ::placeholder {
         text-align: left;
-        font-size: 2vh;
+        font-size: 1vh;
     }
 }
